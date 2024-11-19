@@ -31,9 +31,7 @@ public class Activitat_GITHUB {
 					
 					System.out.println("El resultat de la resta es: " + resta);
 					
-				// User 3 fer la multiplicació dels elements de prodArray
-					
-				
+			
 	
 
 	}
