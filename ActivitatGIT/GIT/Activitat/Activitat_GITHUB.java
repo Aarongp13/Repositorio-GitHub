@@ -14,18 +14,26 @@ public class Activitat_GITHUB {
 				
 				int suma = 0; 
 				
-				for(int i = 0; i < subArray.length; i++) {
-					suma += subArray[i];
+				for(int i = 0; i < sumArray.length; i++) {
+					suma += sumArray[i];
 				}		
 					System.out.println("El resultat es: " + suma);
 
 	
 				// User 2 fer la resta dels elements de subArray
+						
+					int resta = 0;
+				
+					for(int f = 0; f < subArray.length; f++) {
+						resta -= subArray[f];
 					
+					}
 					
+					System.out.println("El resultat de la resta es: " + resta);
 					
 				// User 3 fer la multiplicació dels elements de prodArray
-	
+					
+				
 	
 
 	}
