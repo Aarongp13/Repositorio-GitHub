@@ -21,11 +21,19 @@ public class Activitat_GITHUB {
 
 	
 				// User 2 fer la resta dels elements de subArray
-					
+						
+					int resta = 0;
 				
+					for(int f = 0; f < subArray.length; f++) {
+						resta -= subArray[f];
+					
+					}
+					
+					System.out.println("El resultat de la resta es: " + resta);
 					
 				// User 3 fer la multiplicació dels elements de prodArray
-	
+					
+				
 	
 
 	}
