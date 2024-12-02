@@ -23,7 +23,7 @@ public class MatrixDebugging {
         
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
-                transposedMatrix[i][j] = matrix[j][i]; // Error: El índice i y j están invertidos
+                System.err.print(transposedMatrix[i][j] + " ");; // Error: El índice i y j están invertidos
             }
         }
 
@@ -49,7 +49,7 @@ public class MatrixDebugging {
             // Intento de sumar los elementos de la matriz de forma incorrecta
             for (int i = 0; i <= matrix.length; i++) {  // Error: índice fuera de límites
                 for (int j = 0; j <= matrix[i].length; j++) {  // Error: índice fuera de límites
-                    sum += matrix[i][j];
+                    sum += matrix[i][j];ee
                 }
             }
             System.out.println("\nLa suma de los elementos es: " + sum);
