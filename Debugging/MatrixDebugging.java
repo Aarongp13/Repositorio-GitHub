@@ -23,7 +23,7 @@ public class MatrixDebugging {
         
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
-                System.err.print(transposedMatrix[i][j] + " ");; // Error: El índice i y j están invertidos
+                System.out.print(transposedMatrix[i][j] + " "); // Error: El índice i y j están invertidos
             }
         }
 
