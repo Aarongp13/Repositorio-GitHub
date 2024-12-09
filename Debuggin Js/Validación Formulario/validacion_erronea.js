@@ -20,10 +20,10 @@ function validarFormulario2() {
     if (!email.includes('@') || !email.includes('.')) {
         mensaje.innerText = "El email no es válido.";
         mensaje.style.color = "red";
-        return true; 
+        return false; 
     }
 
     mensaje.innerText = "Formulario enviado correctamente.";
     mensaje.style.color = "green";
-    return false;
+    return true;
 }
